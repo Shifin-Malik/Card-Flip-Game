@@ -9,6 +9,7 @@ import happyFaceImage from '/img/happy-face.png';
 import happy from '/img/happy.png';
 import monkey from '/img/monkey.png';
 import panda from '/img/panda.png';
+import shark from '/img/shark.png'
 
 
 const cardImages = [
@@ -21,6 +22,7 @@ const cardImages = [
   { src: happy, matched: false },
   { src: monkey, matched: false },
   { src: panda, matched: false },
+  { src: shark, matched: false },
  
 ];
 
@@ -79,8 +81,8 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen w-full  bg-primary px-10">
-      <h1 className="text-4xl text-white font-bold text-center pt-4">Magic Match</h1>
+    <div className="h-screen w-full  bg-primary px-3">
+      <h1 className="text-4xl text-white font-bold text-center pt-4">Card Flip Game</h1>
       <div className="flex justify-center pt-4 gap-3">
         <button
           onClick={shuffleCards}
@@ -91,7 +93,7 @@ function App() {
         <p className="text-lg text-white ">Turns: {turns}</p>
       </div>
 
-      <div className="card-grid mt-10 grid grid-cols-3 gap-5">
+      <div className="card-grid mt-10 grid grid-cols-4 gap-5">
         {cards.map((card) => (
           <SingleCard
             key={card.id}
