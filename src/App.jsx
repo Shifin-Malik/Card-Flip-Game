@@ -93,7 +93,7 @@ function App() {
         <p className="text-lg text-white ">Turns: {turns}</p>
       </div>
 
-      <div className="card-grid mt-10 grid grid-cols-4 gap-5">
+      <div className="card-grid mt-10 grid grid-cols-4 lg:grid-cols-10 gap-5">
         {cards.map((card) => (
           <SingleCard
             key={card.id}
