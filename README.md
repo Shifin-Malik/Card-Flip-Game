@@ -11,5 +11,5 @@ Currently, two official plugins are available:
 <div align="center">
   <img src="https://github.com/user-attachments/assets/902523f4-723b-4c9a-b5c4-23d584387cd6" alt="project preview" width=50% />
   
-  <img src="https://github.com/user-attachments/assets/c1421153-6ac7-4e15-b138-f378b7587810" alt="project preview" width=50% />
+  <img src="https://github.com/user-attachments/assets/3889c652-978a-4703-92bf-a9da2dd87a02" alt="project preview" width=50% />
 </div>
