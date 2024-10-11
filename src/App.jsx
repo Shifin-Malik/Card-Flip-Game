@@ -90,6 +90,7 @@ function App() {
         >
           New Game
         </button>
+        <button  className="bg-transparent border-2 border-white px-3 py-2 rounded text-white font-bold cursor-pointer text-base hover:bg-third">Hard</button>
         <p className="text-lg text-white ">Turns: {turns}</p>
       </div>
 
